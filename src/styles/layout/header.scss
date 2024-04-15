@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    letter-spacing: 1.2px;
+
+    .logo{
+        font-size:16px;
+        a {
+            @include chroma-link;
+        }
+        font-weight: 800;
+        .bold{
+            font-weight: 800;
+        }
+    }
+
+    .menu{
+        font-size:13px;
+        font-weight: 50;
+        .menu-item{
+            // padding-left:40px;
+            @include chroma-link;
+            margin-left:40px;
+        }
+
+        .fill{
+            margin-left:40px;
+            color:$background-color;
+            background-color:#D9D9D9;
+            border-radius: 12px;
+            padding:4px 10px;
+            // background-color: $text-color;
+            transition: all 0.2s ease-in;
+
+            &:hover{
+                background-color: $background-color;
+                // background-color:#CB0C0C;
+                animation:chroma ease-in 0.2s normal forwards;
+                color:$text-color;
+            }
+        }
+    }
+}
+

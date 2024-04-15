@@ -1,0 +1,49 @@
+.image-banner-wrapper{
+    width:100%;
+    position: relative;
+    cursor: pointer;
+
+    .image-banner{
+        width:100%;
+        border-radius: 7px;
+        height: 720px;
+        object-fit:cover;
+        display: block;
+        position: relative;
+    }
+
+
+    .overlay-text{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+
+        .main-heading{
+            font-size:50px;
+            letter-spacing: 23px;
+            padding: 4px 0px;
+            font-weight: 800;
+            width:100%;
+            color: 100%;
+            text-shadow:-1px 0px 0px #1AD7E0, -2px 0px 0px #0D10DC,1px 0px 0px #d68010 ,2px 0px 0px #CB0C0C;
+        }
+
+        p{
+            letter-spacing: 0px;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+    }
+
+    .overlay-bottom-left{
+        position: absolute;
+        top:100%;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-left:10px;
+        transform: translate(-0%, -140%);
+    }
+}
