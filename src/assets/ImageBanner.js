@@ -8,9 +8,9 @@ const HomeImageBanner = () => {
     return (
         <>
         <div className="image-banner-wrapper">
-            {/* <img src={yazhi} className='image-banner' alt="banner image"/> */}
             <video loop muted autoPlay className='image-banner'>
                 <source src={bannerVid} type="video/mp4"/>
+                <img src={yazhi} className='image-banner' alt="banner image"/>
             </video>
             <div className="overlay-text">
                 <div className="main-heading">
