@@ -2,6 +2,10 @@
     width:100%;
     position: relative;
     cursor: pointer;
+    text-shadow:-1px 0px 0px #1AD7E0, -3px 0px 0px #0D10DC,1px 0px 0px #d68010 ,3px 0px 0px #CB0C0C;
+        &:hover .main-heading {
+            text-shadow:-2px 0px 0px #1AD7E0, -4px 0px 0px #0D10DC,2px 0px 0px #d68010 ,4px 0px 0px #CB0C0C;
+        }
 
     .image-banner{
         width:100%;
@@ -26,7 +30,7 @@
             font-weight: 800;
             width:100%;
             color: 100%;
-            text-shadow:-1px 0px 0px #1AD7E0, -2px 0px 0px #0D10DC,1px 0px 0px #d68010 ,2px 0px 0px #CB0C0C;
+            transition: all 0.1s ease-in;
         }
 
         p{
@@ -34,6 +38,7 @@
             font-weight: 500;
             text-transform: uppercase;
             font-size: 16px;
+            text-shadow:none;
         }
 
     }
@@ -45,5 +50,7 @@
         font-size: 12px;
         padding-left:10px;
         transform: translate(-0%, -140%);
+        text-shadow:none;
     }
+
 }

@@ -7,10 +7,12 @@
 
     .logo{
         font-size:16px;
+        font-weight: 100;
+        // font-weight: 800;
+        text-shadow:-0.5px 0px 0px #1AD7E0, -1px 0px 0px #0D10DC,0.5px 0px 0px #d68010 ,1px 0px 0px #CB0C0C;
         a {
             @include chroma-link;
         }
-        font-weight: 800;
         .bold{
             font-weight: 800;
         }
