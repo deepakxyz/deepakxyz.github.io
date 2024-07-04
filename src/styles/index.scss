@@ -9,11 +9,15 @@
     100%{text-shadow:-1px 0px 0px #1AD7E0, -3px 0px 0px #0D10DC,1px 0px 0px #d68010 ,3px 0px 0px #CB0C0C;}
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: $background-color;
     color:$text-color;
     font-family: $font-plex;
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 a{
     text-decoration: none;
@@ -26,4 +30,9 @@ a{
 
 // components
 @import 'components/image-banner';
+@import 'components/home-content.scss';
+@import 'components/footer.scss';
 
+// pages
+@import 'pages/404.scss';
+@import 'pages/works.scss';

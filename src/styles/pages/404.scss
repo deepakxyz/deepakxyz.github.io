@@ -1,0 +1,15 @@
+.page-not-found-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    h2{
+        font-size: 80px;
+        text-shadow:-1.5px 0px 0px #1AD7E0, -4px 0px 0px #0D10DC,1.5px 0px 0px #d68010 ,4px 0px 0px #CB0C0C;
+    }
+    p{
+        text-transform: uppercase;
+    }
+}
