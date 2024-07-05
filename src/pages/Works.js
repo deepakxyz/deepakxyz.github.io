@@ -25,6 +25,13 @@ const WorkPage = () => {
       <div className='work-sub-heading-wrapper'>
         <div className='work-sub-heading'>
           Works
+          {/* <div className="work-mid-details">
+            This is something i wanted to tell you
+            This is something i wanted to tell you
+            This is something i wanted to tell you
+            This is something i wanted to tell you
+            This is something i wanted to tell you
+          </div> */}
         </div>
         <div className='sub-heading-side'>
           <Link to="">Short Films</Link>
@@ -32,10 +39,10 @@ const WorkPage = () => {
           <Link to="">Flimography</Link>
         </div>
       </div>
-      <WorkItem image={adya} link="/works/adya/" />
-      <WorkItem image={yazhi}/>
-      <WorkItem image={adya}/>
-      <WorkItem image={yazhi}/>
+      <WorkItem image={adya} link="/works/adya/" key="4" />
+      <WorkItem image={yazhi} key="1"/>
+      <WorkItem image={adya} key="2"/>
+      <WorkItem image={yazhi} key="3"/>
 
       <div className='flimography-wrapper'>
         <div className='filmography'>

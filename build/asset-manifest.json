@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dabaa82.css",
-    "main.js": "/static/js/main.b87213d5.js",
+    "main.css": "/static/css/main.c45f6f01.css",
+    "main.js": "/static/js/main.90d03598.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.d438640a.chunk.js",
     "static/media/output_video.mp4": "/static/media/output_video.6b42ab25a99b5f507d42.mp4",
     "static/media/mermaid_final.mp4": "/static/media/mermaid_final.e61e6d6ac58363161b97.mp4",
     "static/media/adya.png": "/static/media/adya.d24f7e56e78022db8d08.png",
     "static/media/yazhi.png": "/static/media/yazhi.96a303db78d69fc2c017.png",
     "index.html": "/index.html",
-    "main.0dabaa82.css.map": "/static/css/main.0dabaa82.css.map",
-    "main.b87213d5.js.map": "/static/js/main.b87213d5.js.map"
+    "static/media/adya.mdx": "/static/media/adya.3a256213cd83c7575a95.mdx",
+    "main.c45f6f01.css.map": "/static/css/main.c45f6f01.css.map",
+    "main.90d03598.js.map": "/static/js/main.90d03598.js.map",
+    "reactPlayerPreview.d438640a.chunk.js.map": "/static/js/reactPlayerPreview.d438640a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dabaa82.css",
-    "static/js/main.b87213d5.js"
+    "static/css/main.c45f6f01.css",
+    "static/js/main.90d03598.js"
   ]
 }

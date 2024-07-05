@@ -6,6 +6,9 @@
         &:hover .main-heading {
             text-shadow:-2px 0px 0px #1AD7E0, -4px 0px 0px #0D10DC,2px 0px 0px #d68010 ,4px 0px 0px #CB0C0C;
         }
+    a {
+        color:$text-color;
+    }
 
     .image-banner{
         width:100%;
